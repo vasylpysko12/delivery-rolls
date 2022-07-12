@@ -1,3 +1,6 @@
+
+// TEST CARD //
+
 const cartWrapper = document.querySelector('.cart-wrapper')
 window.addEventListener('click', function(event){
     if(event.target.hasAttribute('data-cart')){
@@ -43,6 +46,6 @@ window.addEventListener('click', function(event){
         console.log(cartItemHtml)
         cartWrapper.insertAdjacentHTML('beforeend', cartItemHtml)     
     };
-    
+
     
 });
